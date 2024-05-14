@@ -1,6 +1,7 @@
 {
     "name": "digital-brew/hooks",
     "description": "An object-oriented package for the WordPress Plugin API.",
+    "version": "1.0.0",
     "keywords": [
         "digital-brew",
         "hooks",
