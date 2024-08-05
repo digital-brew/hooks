@@ -29,7 +29,7 @@ abstract class Hook implements HookContract
         return new static($name, $callback, $priority);
     }
 
-    public static function remove(string $name, callable $callback, int $priority = 10): bool
+    public static function remove(string $name, callable|string $callback, int $priority = 10): bool
     {
         return call_user_func('remove_filter', $name, $callback, $priority);
     }
